@@ -1,0 +1,298 @@
+body{
+    background-color: black;
+}
+
+/*barra superiore*/
+
+
+
+
+#box-1{
+    width: 1050px;
+    height: 80px;
+    border: 3px solid rgb(239, 239, 239);
+    display: inline-block;
+    margin-left: 120px;
+}
+
+
+#box-2{
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgb(239, 239, 239);
+    background-color: rgba(239,239,239);
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
+
+
+h1{
+    color:rgb(239, 239, 239) ;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+#box-1 h1:hover{
+    color: red;
+}
+
+#box-1 h1:active{
+    color: red;
+    opacity: 0.5;
+}
+
+#box-2 span{
+    font-size: 55px;
+    margin-left: 10px;
+}
+
+#box-2 span:hover{
+    color:red;
+    transition: color 0.10s;
+}
+
+#box-2 span:active{
+    color:red;
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#line-vertical{
+    height: 450px;
+    width: 1px;
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgb(239, 239, 239);
+    margin-left:120px;
+    margin-top: 50px;
+    /* position: fixed;    CACCIARE */
+    display: inline-block;
+}
+
+#myPicture{
+    height: 450px;
+    width: 300px;
+    margin-left: 180px;
+    display: inline-block;
+    position: relative;
+    top:20px;
+    object-fit: cover;
+    object-position: -310px;
+    border-radius: 5px;
+}
+
+
+#title{
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+
+}
+
+
+
+
+.block-1{
+    height:150px;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.block-2{
+    height:150px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.special-h1{
+    font-family: 'Playfair Display', serif;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+.block-2 .special-h1{
+    color: red;
+}
+
+.social-media-bar{
+    height: 400px;
+    width: 50px;
+    background-color: rgb(239, 239, 239);
+    display: inline-block;
+    margin-left: 120px;
+    position: relative;
+    bottom: 30px;
+    /* margin-left: 150px;
+    position: fixed;
+    bottom: 150px; */
+}
+ 
+.socialProprieta{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 30px 10px 30px 11px;
+}
+
+#facebook:hover{
+    background-color:dodgerblue;
+    border-radius: 5px; 
+    transition: background-color 0.05s;
+}
+
+#instagram:hover{
+    background-color: deeppink;
+    border-radius: 5px;
+    transition: background-color 0.05s;
+}
+
+#youtube:hover{
+    background-color: red;
+    border-radius: 5px;
+    transition: background-color 0.05s;
+}
+
+#linkedin:hover{
+    background-color: skyblue;
+    border-radius: 5px;
+    transition: background-color 0.05s;
+}
+
+#facebook:active,
+#instagram:active,
+#youtube:active,
+#linkedin:active{
+    opacity: 0.5;
+}
+
+hr{
+    width: 900px;
+    margin-top: 90px;
+    /* position: relative; */
+    /* right: 25px; */
+}
+
+#horizontal-line1 , #horizontal-line2{
+    height: 1px;
+    width: 900px;
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgb(239, 239, 239);
+    margin-left:250px;
+    margin-top: 60px;
+    /* position: fixed;    CACCIARE */
+    display: block;
+}
+
+
+#presentation, #presentation1{
+    width: 1000px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 60px;
+    /* border: 1px solid red; */
+}
+
+
+#aboutMe,#aboutMe1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    margin-left: 300px;
+    height: 50px;
+}
+
+
+h2{
+    color: rgb(239, 239, 239);
+    margin-left: 200px;
+    margin-left: 0px;
+    font-family:'Work Sans', sans-serif;
+    margin-left: 10px;
+}
+
+#presentation h2{
+    width:500px;
+}
+
+#imageText{
+    display: flex;
+    height: 500px;
+}
+
+#myPicture2{
+    height: 400px;
+    width: 290px;
+    margin-left: 80px;
+    position: relative;
+    bottom:20px;
+    object-fit: contain;
+}
+
+
+#presentation1 #aboutMe1{
+    margin-left: 250px;
+}
+
+#presentation1 h2:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.firma{
+    width: 200px;
+    position: relative;
+    left: 800px;
+    top: 30px;
+}
+
+#input1{
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-left: 700px;
+    margin-top: 20px;
+    font-family:'Work Sans', sans-serif;
+    color:rgb(239, 239, 239);
+    background-color: black;
+    border: 1px solid rgb(239, 239, 239);
+    cursor: pointer;
+    transition: background-color 0.10s, color 0.10s;
+}
+
+#input2{
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 60px;
+    font-family:'Work Sans', sans-serif;
+    color:rgb(239, 239, 239);
+    background-color: black;
+    border: 1px solid rgb(239, 239, 239);
+    cursor: pointer;
+    transition: background-color 0.10s, color 0.10s;
+}
+
+
+#input1:hover, #input2:hover{
+    background-color:rgb(239, 239, 239) ;
+    color: black;
+}
